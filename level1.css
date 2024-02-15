@@ -6,7 +6,7 @@ h1 {
     color: rgb(128, 94, 156);
 }
 
-button1 {
+level2button {
     background-color: rgb(249, 221, 250);
     color: black;
     font-size: 36pt;
@@ -15,7 +15,7 @@ button1 {
     right: 10px;
 }
 
-button2 {
+homebutton {
     background-color: rgb(249, 221, 250);
     color: black;
     font-size: 36pt;
