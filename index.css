@@ -1,13 +1,105 @@
 body {
-    background-color:aqua;
+    /* background-color: rgb(237, 238, 239); */
+    background-color: #000000e3;
 }
 
 h1 {
-    color: rgb(128, 94, 156);
+    /* color: rgb(128, 94, 156); */
+    width: 980px;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    margin-left: -490px;
+    color: #8ACB00;
+    text-align: center;
+    font-family: 'Tourney';
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
 
-button {
-    background-color: rgb(249, 221, 250);
-    color: rgb(74, 213, 255);
+#chooselevelblurb {
+    /* color: rgb(128, 94, 156); */
+    width: 980px;
+    /* height: 294px; */
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    margin-left: -490px;
+    color: #8ACB00;
+    text-align: center;
+    font-family: 'Tourney';
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.level1rectangle {
+    width: 20%;
+    height: 25%;
+    border: none;
+    border-radius: 30px;
+    background: #B29EB2;
+    position: absolute;
+    top: 65%;
+    left: 25%;
+    margin-top: -12.5%;
+    margin-left: -10%;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Tourney';
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
     font-size: 36pt;
+    cursor: pointer;
+}
+
+.level2rectangle {
+    width: 20%;
+    height: 25%;
+    border: none;
+    border-radius: 30px;
+    background: #A349A3;
+    position: fixed;
+    top: 65%;
+    left: 50%;
+    margin-top: -12.5%;
+    margin-left: -10%;
+    font-size: 36pt;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Tourney';
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    font-size: 36pt;
+    cursor: pointer;
+}
+
+.level3rectangle {
+    width: 20%;
+    height: 25%;
+    border: none;
+    border-radius: 30px;
+    background: #3F47CC;
+    position: fixed;
+    top: 65%;
+    left: 75%;
+    margin-top: -12.5%;
+    margin-left: -10%;
+    font-size: 36pt;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Tourney';
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    font-size: 36pt;
+    /* cursor: pointer; */
 }
