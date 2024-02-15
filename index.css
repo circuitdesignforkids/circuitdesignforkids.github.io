@@ -55,6 +55,7 @@ h1 {
     font-weight: 600;
     line-height: normal;
     font-size: 36pt;
+    cursor: pointer;
 }
 
 .level2rectangle {
@@ -77,6 +78,7 @@ h1 {
     font-weight: 600;
     line-height: normal;
     font-size: 36pt;
+    cursor: pointer;
 }
 
 .level3rectangle {
@@ -99,4 +101,5 @@ h1 {
     font-weight: 600;
     line-height: normal;
     font-size: 36pt;
+    /* cursor: pointer; */
 }
