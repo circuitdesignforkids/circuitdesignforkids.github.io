@@ -8,8 +8,8 @@ body {
 
 #quiz_container {
     position: relative;
-    width: 50%;
-    height: 5%;
+    width: 100%;
+    height: auto;
     max-width: 100%;
     margin: 0 auto;
     line-height: 150%;
@@ -55,23 +55,17 @@ body {
 
 .options-container label {
     width: 100%;
+    display: inline-block;
+    animation: scaler 1s ease-out 1 alternate;
 }
 
-@media only screen and (max-width : 600px) {
-    .options-container label {
-        width: 100%;
+@keyframes scaler {
+    0% {
+        transform: scale(0);
     }
-}
 
-@media only screen and (min-width : 601px)and (max-width : 900px) {
-    .options-container label {
-        width: 50%;
-    }
-}
-
-@media only screen and (min-width: 900px) {
-    .options-container label {
-        width: 25%;
+    100% {
+        transform: scale(1);
     }
 }
 
@@ -162,9 +156,9 @@ body {
 }
 
 .options-container.radio-type1 input[type='radio'].incorrect+label .label-child {
-    background: #ff0000;
+    background: #FFA500;
     color: #FFFFFF;
-    border: 1px solid #000000;
+    border: 1px solid #FFFFFF;
 }
 
 .options-container.checkbox-type1 input[type='checkbox'] {
@@ -251,9 +245,9 @@ body {
 }
 
 .options-container.checkbox-type1 input[type='checkbox'].incorrect+label .label-child {
-    background: #ff0000;
+    background: #FFA500;
     color: #FFFFFF;
-    border: 1px solid #000000;
+    border: 1px solid #FFFFFF;
 }
 
 .options-container .right-mark {
@@ -264,7 +258,7 @@ body {
 
 .options-container .wrong-mark {
     display: none !important;
-    color: #ffffff;
+    color: #8B0000;
     font-size: 30px;
 }
 
@@ -273,7 +267,8 @@ body {
     display: table-cell !important;
 }
 
-.question-container .explanation {
+.question-container .explanation,
+.question-container .each-question-btn-parent {
     background: #d5d5d5;
     color: #000000;
     padding: 5px;
@@ -303,8 +298,10 @@ body {
 .question-container .prev-button,
 .question-container .reset-button,
 .question-container .next-button,
-.start-quiz-button {
-    background: #A349A3;
+.start-quiz-button,
+.show-answer-button,
+.hide-answer-button {
+    background: #2196F3;
     color: #FFFFFF;
     padding: 5px 32px;
     cursor: pointer;
@@ -321,8 +318,10 @@ body {
 .question-container .prev-button:hover,
 .question-container .reset-button:hover,
 .question-container .next-button:hover,
-.start-quiz-button:hover {
-    background: #a9aaad;
+.start-quiz-button:hover,
+.show-answer-button:hover,
+.hide-answer-button:hover {
+    background: #216ff3;
     color: #FFFFFF;
 }
 
