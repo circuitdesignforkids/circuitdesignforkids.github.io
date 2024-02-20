@@ -1,3 +1,11 @@
+body {
+    /* background-color: rgb(237, 238, 239); */
+    background-color: #000000e3;
+    font-family: 'Tourney';
+    font-style: normal;
+    font-weight: 700;
+}
+
 #quiz_container {
     position: relative;
     width: 50%;
@@ -24,7 +32,7 @@
 .question-container .question {
     padding: 5px 10px;
     border-radius: 5px 5px 0px 0px;
-    background: rgb(235, 5, 5);
+    background: #A349A3;
     color: #FFFFFF;
 }
 
@@ -296,7 +304,7 @@
 .question-container .reset-button,
 .question-container .next-button,
 .start-quiz-button {
-    background: #f32020;
+    background: #A349A3;
     color: #FFFFFF;
     padding: 5px 32px;
     cursor: pointer;
