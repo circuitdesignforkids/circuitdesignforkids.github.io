@@ -1,25 +1,52 @@
 body {
-    background-color: #fcfcfc;
+    background-color: #000000e3;
 }
 
 h1 {
-    color: rgb(128, 94, 156);
+    color: #8ACB00;
+    text-align: center;
+    font-family: 'Tourney';
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
 
-level2button {
-    background-color: rgb(249, 221, 250);
-    color: black;
-    font-size: 36pt;
-    position: fixed;
-    bottom: 2px;
-    right: 10px;
+h2 {
+    color: #8ACB00;
+    text-align: center;
+    font-family: 'Tourney';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
 
 homebutton {
-    background-color: rgb(249, 221, 250);
-    color: black;
-    font-size: 36pt;
+    background-color: #A349A3;
+    color: #FFF;
+    border-radius: 8px;
+    font-family: 'Tourney';
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 650;
+    line-height: normal;
     position: fixed;
     bottom: 2px;
     left: 10px;
+}
+
+
+level2button {
+    background-color: #3F47CC;
+    color: #FFF;
+    border-radius: 8px;
+    font-family: 'Tourney';
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 650;
+    line-height: normal;
+    position: fixed;
+    bottom: 2px;
+    right: 10px;
 }
