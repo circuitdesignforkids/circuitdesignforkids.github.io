@@ -22,29 +22,52 @@ h2 {
     line-height: normal;
 }
 
-level1button {
+homebutton {
     background-color: #A349A3;
     color: #FFF;
+    height: 5%;
+    width: 30%;
     border-radius: 8px;
     font-family: 'Tourney';
     font-size: 36px;
     font-style: normal;
     font-weight: 650;
+    text-align: center;
     line-height: normal;
     position: fixed;
     bottom: 2px;
     left: 10px;
 }
 
-
-homebutton {
+level1button {
     background-color: #3F47CC;
     color: #FFF;
+    height: 5%;
+    width: 30%;
     border-radius: 8px;
     font-family: 'Tourney';
     font-size: 36px;
     font-style: normal;
     font-weight: 650;
+    text-align: center;
+    line-height: normal;
+    position: fixed;
+    bottom: 2px;
+    left: 50%;
+    margin-left: -15%;
+}
+
+quiz2button {
+    background-color: #8ACB00;
+    color: #FFF;
+    height: 5%;
+    width: 30%;
+    border-radius: 8px;
+    font-family: 'Tourney';
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 650;
+    text-align: center;
     line-height: normal;
     position: fixed;
     bottom: 2px;
