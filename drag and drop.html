@@ -58,6 +58,7 @@
 <br> 
 <script> 
 
+<!--Sets data type and value of the dragged data-->
 function allowDrop(ev) { 
 
   ev.preventDefault(); 
@@ -66,7 +67,7 @@ function allowDrop(ev) {
 
 function drag(ev) { 
 
-  ev.dataTransfer.setData("text", ev.target.id); 
+  ev.dataTransfer.setData("object", ev.target.id); 
 
 } 
 
@@ -76,7 +77,7 @@ function drop(ev) {
 
   ev.preventDefault(); 
 
-  var data = ev.dataTransfer.getData("text"); 
+  var data = ev.dataTransfer.getData("object"); 
 
   ev.target.appendChild(document.getElementById(data)); 
 
