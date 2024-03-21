@@ -22,6 +22,64 @@ h2 {
     line-height: normal;
 }
 
+/* rectangle {
+    background: #A349A3;
+} */
+
+.map {
+    width: 900px;
+    height: 600px;
+    margin: 50px auto 50px auto;
+    position: relative;
+}
+
+.map .base {
+    position: absolute;
+    width: inherit;
+    height: inherit;
+}
+
+.map .sensor {
+    display: inline-block;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+}
+
+.dragme {
+    cursor: move;
+    left: 0px;
+    top: 0px;
+}
+
+/* .popup {
+    position: absolute;
+    display: inline-block;
+    width: 200px;
+    height: 100px;
+    background-color: #9FC990;
+    border-radius: 10%;
+} */
+
+
+/* .popup::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -10px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: #9FC990 transparent transparent transparent;
+}
+
+.popup span {
+    width: 90%;
+    margin: 10px;
+    display: inline-block;
+    text-align: center;
+} */
+
 homebutton {
     background-color: #A349A3;
     color: #FFF;
