@@ -1,0 +1,104 @@
+<!DOCTYPE HTML> 
+<html>
+<head> 
+<style> 
+
+#wire{ 
+
+	width: 550px; 
+
+    height: 300px; 
+
+    border: 2px solid black; 
+
+    padding: 10px; 
+
+    margin: 10px; 
+
+} 
+
+#div1, #div2{ 
+
+  position: relative; 
+
+  float: left; 
+
+  width: 100px; 
+
+  height: 35px; 
+
+  margin: 75px; 
+
+  padding: 10px; 
+
+  border: 1px solid black; 
+
+} 
+
+#div6 { 
+
+  float: right; 
+
+  width: 100px; 
+
+  height: 35px; 
+
+  margin: 25px; 
+
+  padding: 10px; 
+
+  border: 1px solid black; 
+
+} 
+
+#div4 
+</style> 
+<br> 
+<h1>"Welcome to the electric playground!"</h1> 
+<br> 
+<script> 
+
+<!--Sets data type and value of the dragged data-->
+function allowDrop(ev) { 
+
+  ev.preventDefault(); 
+
+} 
+
+function drag(ev) { 
+
+  ev.dataTransfer.setData("object", ev.target.id); 
+
+} 
+
+  
+
+function drop(ev) { 
+
+  ev.preventDefault(); 
+
+  var data = ev.dataTransfer.getData("object"); 
+
+  ev.target.appendChild(document.getElementById(data)); 
+
+} 
+
+</script> 
+
+</head> 
+
+<body> 
+
+<div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"> 
+
+  <img src="BatteryICONright.png" draggable="true" ondragstart="drag(event)" id="drag1" width="88" height="31"> 
+
+</div> 
+
+<div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)"></div> 
+<div id="wire"></div> 
+<div id="div6" ondrop="drop(event)" ondragover="allowDrop(event)"></div> 
+
+</body> 
+
+</html> 
