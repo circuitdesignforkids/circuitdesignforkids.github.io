@@ -73,3 +73,13 @@ quiz2button {
     bottom: 2px;
     right: 10px;
 }
+
+textarea {
+
+    line-height: normal;
+    position: fixed;
+    bottom: 10%;
+    left: 23%;
+    right:23%;
+    margin-left: auto;
+}
